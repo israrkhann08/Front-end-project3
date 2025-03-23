@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding:0;
+    overflow: hidden;
+}
+.container{
+    height:100vh;
+    width:100%;
+    border:1px solid black;
+    background-color: rgba(0, 0, 0, 0.851);
+}
+.innercon{
+    height:100%;
+    width:60%;
+    border:1px solid black;
+    margin: auto;
+    background-color: white;
+}
+      /* navbar section */
+nav{
+    height:10vh;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.764);
+}
+.nde{
+    width:60%;
+    height:100%;
+    /* border:1px solid black; */
+    /* background-color: white; */
+    margin: auto;
+}
+.logo{
+    float: left;
+    /* border:1px solid black; */
+    padding-top: 4px;
+    color: rgba(255, 255, 255, 0.574);
+}
+.logo p{
+    font-size: 8px;
+} 
+.textNav{
+    float: right;
+    /* border:1px solid white; */
+    margin-top: 12px;
+    background-color: rgba(0, 0, 0, 0.267);
+}
+.textNav ul{
+    float: right;
+}
+.textNav ul li{
+    float: right;
+    padding:6px 2px;
+}
+.textNav  a{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.638);
+    font-size: 10px;
+    padding:4px 4px;
+  
+}
+
+
+      /* middle section */
+
+.middle{
+    height:67%;
+    width:60%;
+    margin: auto;
+  
+}
+          /* part-1 */
+.part1{
+   height:20vh;
+   width:100%;
+   /* border:1px solid black; */
+   margin-top: 12px;
+   background-color: rgba(0, 0, 0, 0.754);
+   text-align: center;
+   color:rgba(255, 255, 255, 0.679);
+  
+} 
+           /* part-2 */
+.part2{
+  height:23vh;
+  width:100%;
+  /* border:1px solid black; */
+  margin-top: 12px;
+}
+.itm{
+  height:100%;
+  width:30%;
+  float: left;
+  /* border:1px solid black; */
+  
+}
+.i2, .i3{
+  margin-left: 19px;
+}
+.img{
+  height:80px;
+  width:100%;
+  background-color: rgba(0, 0, 0, 0.754);
+}
+.img p{
+  color:rgba(255, 255, 255, 0.679);
+  text-align: center;
+  margin-top: 6px;
+}
+.para h6{
+  font-size: 9px;
+  color:grey;
+  margin-top: 6px;
+}
+.para p{
+  font-size: 8px;
+  color:grey;
+  margin-top: 4px;
+}
+.redm{
+  float:right;
+  font-size: 8px;
+  color:yellowgreen;
+  margin-top: 8px;
+}
+.pad{
+  margin-left: 5px;
+}
+       /* part-3 */
+.part3{
+  height:20vh;
+  width:100%;
+  /* border:1px solid black; */
+}
+.Lpart{
+  height:100%;
+  width:48%;
+  /* border:1px solid black; */
+  float: left;
+  
+}
+.Lpart h3{
+  color:gray;
+  font-weight: 200;
+  font-size: 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.Lpart p{
+  font-size: 8px;
+  color:grey;
+  margin-top: 12px;
+  /* padding-right: 12px; */
+}
+.Rpart{
+  height:100%;
+  width:50%;
+  /* border:1px solid black; */
+  background-color: rgba(0, 0, 0, 0.754);
+  float: right;
+  color:rgba(255, 255, 255, 0.679);
+  text-align: center;
+}
+.Rpart p{
+  color:rgba(255, 255, 255, 0.679);
+  text-align: center;
+  margin-top: 55px;
+}
+      /* footer section */
+
+      footer{
+        height:18vh;
+        width:100%;
+        background-color: rgba(0, 0, 0, 0.764);
+        /* border:1px solid yellow; */
+      }
+      .fdiv{
+        height:100%;
+        width:60%;
+        margin:auto;
+        /* border:1px solid white; */
+        margin-bottom: 3px;
+  
+      }
+      .fdiv .item{
+        height:100%;
+        width:24%;
+        /* border:1px solid white; */
+        float: left;
+        vertical-align: top;
+        margin-left: 2px;
+      }
+      .item h5{
+        font-weight: 100;
+        color:white;
+        padding-top: 8px;
+        font-size: 12px;
+
+      }
+      .item a{
+        color:yellowgreen;
+        font-size: 10px;
+        text-decoration: none;
+      
+      }
+      .item p{
+        border-bottom: 1px solid rgba(128, 128, 128, 0.67);
+        line-height: 13px;
+        width:90%;
+        padding-bottom: 1px;
+      }
+
+      /* last detail */
+      .detail{
+        height:5vh;
+        width:100%;
+        background-color: rgba(0, 0, 0, 0.851);
+        font-size: 8px;
+        color:rgba(255, 255, 255, 0.526);
+      }
+      .deDiv{
+        width:60%;
+        height:100%;
+        margin: auto;
+      }
+      .right{
+        float: left;
+        padding-top: 12px;
+      }
+      .left{
+        float: right;
+        padding-top: 12px;
+      }
+
+      .color{
+        color:yellowgreen;
+      }
